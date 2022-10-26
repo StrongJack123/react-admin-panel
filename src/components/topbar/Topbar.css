@@ -1,9 +1,10 @@
 .topbar {
   width: 100%;
   height: 50px;
-  background-color: white;
+  background-color: rgb(228, 225, 225);
   position: sticky;
   top: 0;
+  z-index: 999;
 }
 
 .topbarWrapper {
@@ -44,4 +45,15 @@
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+.topbarAvatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
 }

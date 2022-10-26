@@ -1,49 +1,15 @@
 import Topbar from "./components/topbar/Topbar.jsx";
+import Sidebar from "./components/sidebar/Sidebar.jsx";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <Topbar />
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
-      <h1>Hello</h1>
-      <br></br>
+      <div className="container">
+        <Sidebar />
+        <div className="others">others</div>
+      </div>
     </div>
   );
 }

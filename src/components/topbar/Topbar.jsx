@@ -25,10 +25,9 @@ const Topbar = () => {
                 </div>  
                 <div className='topbarIconContainer'>
                     <SettingsIcon />    
-                    <span className='topbarIconBadge'>
-                        2
-                    </span>
-                </div>     
+                
+                </div> 
+                <img src='https://plus.unsplash.com/premium_photo-1661255373874-f7585966a77a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGh1bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60' alt='user' className='topbarAvatar'/>    
             </div> 
         </div>
     </div>
